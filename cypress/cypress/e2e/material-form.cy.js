@@ -1,5 +1,8 @@
+import userData from "@fixtures/example.json";
+
 describe("template spec", () => {
   beforeEach(() => {
+    cy.log(JSON.stringify(userData));
     cy.visit("http://localhost:5173/material");
   });
 

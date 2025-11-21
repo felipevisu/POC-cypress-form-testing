@@ -11,6 +11,12 @@
     "start": "npx cypress open"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "babel-loader": "^10.0.0",
     "cypress": "^15.6.0"
+  },
+  "dependencies": {
+    "@cypress/webpack-preprocessor": "^7.0.2"
   }
 }

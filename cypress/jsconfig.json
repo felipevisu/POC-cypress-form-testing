@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@fixtures/*": ["cypress/fixtures/*"],
+      "@support/*": ["cypress/support/*"],
+      "@e2e/*": ["cypress/e2e/*"],
+      "@commands/*": ["cypress/support/commands/*"],
+      "@pages/*": ["cypress/support/pages/*"],
+      "@utils/*": ["cypress/support/utils/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["cypress/**/*"]
+}
